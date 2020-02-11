@@ -19,5 +19,17 @@ int main(){
 	showMatrix(B);
 	return 0;
 }
+void inputMatrix(double A[N][N]){
+	int i = 0 , P;
+	for (int j = 0; j < N; j++){
+		for (int k = 0; k < N; k++){
+			cout << "Row " << i+1 << ":";
+			getline(cin,P);
+		}
+	}
 
-// Write definition of inputMatrix(),matrixMultiply() and showMatrix() here
+}
+
+
+
+
